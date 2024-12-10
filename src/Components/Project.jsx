@@ -1,5 +1,5 @@
 import Website from "../assets/Website.jpg";
-import ApiGateway from "../assets/ApiGateway.jpg";
+import ApiGateway from "../assets/APIGateway.jpg";
 import Algorithm from "../assets/Algorithm.jpg";
 import Account from "../assets/account.svg";
 

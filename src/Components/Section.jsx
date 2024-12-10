@@ -1,12 +1,12 @@
 const Section = () => {
   return (
     <>
-      <div className="container col-xxl-8 px-4 py-5">
+      <div className="container col-xxl-8 px-4 py-5" id="section">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
               src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?t=st=1733824967~exp=1733828567~hmac=4955864250b249a3184cdee55da7a20f9432ed9945d031ebd659848d11b5ee93&w=1380"
-              className="d-block mx-lg-auto img-fluid rounded-5   "
+              className="d-block mx-lg-auto img-fluid rounded-5 "
               alt="Profile"
               width="700"
               height="500"
@@ -26,18 +26,15 @@ const Section = () => {
               database design, and clean code architecture.
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button
-                type="button"
-                className="btn btn-dark btn-lg px-4 me-md-2"
-              >
+              <a href="#myproject" className="btn btn-dark btn-lg px-4 me-md-2">
                 View Projects
-              </button>
-              <button
-                type="button"
+              </a>
+              <a
+                href="#footer"
                 className="btn btn-outline-secondary btn-lg px-4"
               >
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
         </div>

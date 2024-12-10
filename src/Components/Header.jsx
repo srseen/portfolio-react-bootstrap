@@ -1,10 +1,9 @@
 const Header = () => {
   return (
     <>
-      {" "}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#home">
+          <a className="navbar-brand" href="#section">
             SRseeN
           </a>
           <button
@@ -21,22 +20,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#home">
+                <a className="nav-link" href="#section">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#fBlog">
-                  Blog
+                <a className="nav-link" href="#myproject">
+                  My Project
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
-                  About
+                <a className="nav-link" href="#skillbackend">
+                  Skill Backend
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="#footer">
                   Contact
                 </a>
               </li>

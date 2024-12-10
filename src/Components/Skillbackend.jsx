@@ -1,8 +1,7 @@
 const Skillbackend = () => {
   return (
     <>
-      {" "}
-      <div className="container px-4 py-5" id="icon-grid">
+      <div className="container px-4 py-5" id="skillbackend">
         <h2 className="pb-2 border-bottom">Backend Development Skills</h2>
 
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">

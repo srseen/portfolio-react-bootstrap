@@ -1,3 +1,5 @@
+import Programmer from "../assets/programmer.jpg";
+
 const Section = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Section = () => {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?t=st=1733824967~exp=1733828567~hmac=4955864250b249a3184cdee55da7a20f9432ed9945d031ebd659848d11b5ee93&w=1380"
+              src={Programmer}
               className="d-block mx-lg-auto img-fluid rounded-5 "
               alt="Profile"
               width="700"
